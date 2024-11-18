@@ -1,0 +1,186 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Container for the page */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Form Styling */
+form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #4CAF50;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: inline-block;
+    color: #4A4A4A;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+    background-color: #fafafa;
+    color: #333;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+    background-color: #fff;
+}
+
+/* Button styling */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button[type="button"] {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="button"]:hover {
+    background-color: #d32f2f;
+}
+
+/* Resume Display Styling */
+#resumeOutput {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#resumeOutput h2 {
+    color: #4CAF50;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#resumeOutput p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 8px 0;
+}
+
+#resumeOutput strong {
+    color: #4CAF50;
+}
+
+#resumeOutput button {
+    background-color: #008CBA;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+#resumeOutput button:hover {
+    background-color: #006f8f;
+}
+
+/* Styling for sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Resume Container Styling */
+#resumeContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+section {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    form,
+    #resumeOutput {
+        padding: 1rem;
+    }
+
+    button[type="submit"],
+    button[type="button"] {
+        width: 100%;
+    }
+}
